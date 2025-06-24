@@ -1,0 +1,351 @@
+{
+  "dueños": [
+    {
+      "id": "1",
+      "rol": "dueño",
+      "nombre": "Nicolas",
+      "apellido": "Zelarayan",
+      "edad": "21",
+      "email": "nico@gmail.com",
+      "tel": "+54 381 9 111-3333 ",
+      "dni": "45.123.456",
+      "password": "123"
+    }
+  ],
+  "socios": [
+    {
+      "id": "1",
+      "rol": "socio",
+      "nombre": "Nicolas",
+      "apellido": "Zelarayan",
+      "edad": "21",
+      "email": "nicoss@gmail.com",
+      "tel": "+54 381 9 114-3133",
+      "dni": "45.123.234",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "rol": "socio",
+      "nombre": "Valentina",
+      "apellido": "Pérez",
+      "edad": "22",
+      "email": "valentina@gmail.com",
+      "tel": "+54 381 9 666-8888",
+      "dni": "43.456.789",
+      "password": "234"
+    },
+    {
+      "id": "3",
+      "rol": "socio",
+      "nombre": "Santiago",
+      "apellido": "Gómez",
+      "edad": "24",
+      "email": "santiago@gmail.com",
+      "tel": "+54 381 9 777-9999",
+      "dni": "41.222.333",
+      "password": "345"
+    },
+    {
+      "id": "4",
+      "rol": "socio",
+      "nombre": "Luciana",
+      "apellido": "Díaz",
+      "edad": "29",
+      "email": "luciana@gmail.com",
+      "tel": "+54 381 9 888-0000",
+      "dni": "44.555.666",
+      "password": "456"
+    },
+    {
+      "id": "5",
+      "rol": "socio",
+      "nombre": "Tomás",
+      "apellido": "García",
+      "edad": "27",
+      "email": "tomas@gmail.com",
+      "tel": "+54 381 9 999-1111",
+      "dni": "46.777.888",
+      "password": "567"
+    },
+    {
+      "id": "6",
+      "rol": "socio",
+      "nombre": "Sofía",
+      "apellido": "García",
+      "edad": "25",
+      "email": "sofia@gmail.com",
+      "tel": "+54 381 9 222-4444",
+      "dni": "42.333.444",
+      "password": "678"
+    },
+    {
+      "id": "7",
+      "rol": "socio",
+      "nombre": "Mateo",
+      "apellido": "Hernández",
+      "edad": "28",
+      "email": "mateo@gmail.com",
+      "tel": "+54 381 9 444-6666",
+      "dni": "46.555.666",
+      "password": "789"
+    },
+    {
+      "id": "8",
+      "rol": "socio",
+      "nombre": "Lucía",
+      "apellido": "Díaz",
+      "edad": "22",
+      "email": "lucia@gmail.com",
+      "tel": "+54 381 9 666-8888",
+      "dni": "40.111.222",
+      "password": "890"
+    },
+    {
+      "id": "9",
+      "rol": "socio",
+      "nombre": "Julio",
+      "apellido": "Pérez",
+      "edad": "30",
+      "email": "julio@gmail.com",
+      "tel": "+54 381 9 888-0000",
+      "dni": "38.444.555",
+      "password": "901"
+    },
+    {
+      "id": "10",
+      "rol": "socio",
+      "nombre": "Valeria",
+      "apellido": "Gómez",
+      "edad": "26",
+      "email": "valeria@gmail.com",
+      "tel": "+54 381 9 000-1111",
+      "dni": "44.666.777",
+      "password": "012"
+    }
+  ],
+  "empleados": [
+    {
+      "id": "1",
+      "rol": "empleado",
+      "nombre": "Nicolas",
+      "apellido": "Zelarayan",
+      "edad": "21",
+      "email": "nicadso@gmail.com",
+      "tel": "+54 381 9 123-316",
+      "dni": "45.453.646",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "rol": "empleado",
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "edad": "25",
+      "email": "ana@gmail.com",
+      "tel": "+54 381 9 333-5555",
+      "dni": "38.765.432",
+      "password": "234"
+    },
+    {
+      "id": "3",
+      "rol": "empleado",
+      "nombre": "Carlos",
+      "apellido": "Rodríguez",
+      "edad": "30",
+      "email": "carlos@gmail.com",
+      "tel": "+54 381 9 555-7777",
+      "dni": "35.678.901",
+      "password": "345"
+    },
+    {
+      "id": "4",
+      "rol": "empleado",
+      "nombre": "María",
+      "apellido": "Gómez",
+      "edad": "28",
+      "email": "maria@gmail.com",
+      "tel": "+54 381 9 777-9999",
+      "dni": "42.111.222",
+      "password": "456"
+    },
+    {
+      "id": "5",
+      "rol": "empleado",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "edad": "35",
+      "email": "juan@gmail.com",
+      "tel": "+54 381 9 999-1111",
+      "dni": "40.987.654",
+      "password": "567"
+    },
+    {
+      "id": "6",
+      "rol": "empleado",
+      "nombre": "Gabriel",
+      "apellido": "Martínez",
+      "edad": "29",
+      "email": "gabriel@gmail.com",
+      "tel": "+54 381 9 111-2222",
+      "dni": "41.777.888",
+      "password": "1234"
+    },
+    {
+      "id": "7",
+      "rol": "empleado",
+      "nombre": "Elena",
+      "apellido": "Rodríguez",
+      "edad": "27",
+      "email": "elena@gmail.com",
+      "tel": "+54 381 9 333-4444",
+      "dni": "39.222.333",
+      "password": "2345"
+    },
+    {
+      "id": "8",
+      "rol": "empleado",
+      "nombre": "Cristian",
+      "apellido": "García",
+      "edad": "31",
+      "email": "cristian@gmail.com",
+      "tel": "+54 381 9 555-6666",
+      "dni": "37.888.999",
+      "password": "3456"
+    },
+    {
+      "id": "9",
+      "rol": "empleado",
+      "nombre": "Daniela",
+      "apellido": "Pérez",
+      "edad": "24",
+      "email": "daniela@gmail.com",
+      "tel": "+54 381 9 777-8888",
+      "dni": "43.444.555",
+      "password": "4567"
+    },
+    {
+      "id": "10",
+      "rol": "empleado",
+      "nombre": "Alejandro",
+      "apellido": "Gómez",
+      "edad": "32",
+      "email": "alejandro@gmail.com",
+      "tel": "+54 381 9 999-0000",
+      "dni": "36.111.222",
+      "password": "5678"
+    }
+  ],
+  "disciplinas": [
+    {
+      "id": "1",
+      "nombre": "Fútbol",
+      "descripcion": "Deporte de equipo que se juega con un balón",
+      "categoria": "Deportes de equipo",
+      "nivel": "Principiante",
+      "dias": ["Martes", "Jueves"],
+      "horario": "19:00 a 21:00",
+      "profesor": "Juan Pérez",
+      "imagen": "futbol.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Baloncesto",
+      "descripcion": "Deporte de equipo que se juega con un balón",
+      "categoria": "Deportes de equipo",
+      "nivel": "Intermedio",
+      "dias": ["Lunes", "Miércoles"],
+      "horario": "20:00 a 22:00",
+      "profesor": "Ana García",
+      "imagen": "baloncesto.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Yoga",
+      "descripcion": "Disciplina que combina movimientos físicos y técnicas de respiración",
+      "categoria": "Fitness",
+      "nivel": "Principiante",
+      "dias": ["Viernes"],
+      "horario": "18:00 a 20:00",
+      "profesor": "Sofía Rodríguez",
+      "imagen": "yoga.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Natación",
+      "descripcion": "Deporte acuático que se practica en una piscina",
+      "categoria": "Deportes acuáticos",
+      "nivel": "Avanzado",
+      "dias": ["Sábado"],
+      "horario": "10:00 a 12:00",
+      "profesor": "Mateo Hernández",
+      "imagen": "natacion.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Gimnasia",
+      "descripcion": "Disciplina que combina movimientos físicos y técnicas de flexibilidad",
+      "categoria": "Fitness",
+      "nivel": "Intermedio",
+      "dias": ["Martes", "Jueves"],
+      "horario": "17:00 a 19:00",
+      "profesor": "Lucía Gómez",
+      "imagen": "gimnasia.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Tenis",
+      "descripcion": "Deporte de raqueta que se juega en una cancha",
+      "categoria": "Deportes de raqueta",
+      "nivel": "Principiante",
+      "dias": ["Miércoles"],
+      "horario": "18:00 a 20:00",
+      "profesor": "Juan Carlos",
+      "imagen": "tenis.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Pilates",
+      "descripcion": "Disciplina que combina movimientos físicos y técnicas de respiración",
+      "categoria": "Fitness",
+      "nivel": "Intermedio",
+      "dias": ["Viernes"],
+      "horario": "17:00 a 19:00",
+      "profesor": "Sofía García",
+      "imagen": "pilates.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Rugby",
+      "descripcion": "Deporte de contacto que se juega con un balón",
+      "categoria": "Deportes de contacto",
+      "nivel": "Avanzado",
+      "dias": ["Sábado"],
+      "horario": "14:00 a 16:00",
+      "profesor": "Mateo Hernández",
+      "imagen": "rugby.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Golf",
+      "descripcion": "Deporte de precisión que se juega en un campo",
+      "categoria": "Deportes de precisión",
+      "nivel": "Principiante",
+      "dias": ["Domingo"],
+      "horario": "10:00 a 12:00",
+      "profesor": "Lucía Gómez",
+      "imagen": "golf.jpg"
+    },
+    {
+      "id": "10",
+      "nombre": "Boxeo",
+      "descripcion": "Deporte de combate que se practica en un ring",
+      "categoria": "Deportes de combate",
+      "nivel": "Avanzado",
+      "dias": ["Lunes"],
+      "horario": "20:00 a 22:00",
+      "profesor": "Julio Pérez",
+      "imagen": "boxeo.jpg"
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "admins": [
+		{
+			"id": "1",
+			"rol": "admin",
+			"contraseña": "123",
+			"nombre": "Nicolas",
+			"apellido": "Zelarayan",
+			"edad": "21",
+			"email": "nicolas@gmail.com",
+			"tel": "3813334444",
+			"dni": "45123456",
+			"foto": "",
+			"descripción": "",
+			"redes": []
+		}
+	],
+  "empleados": [
+    {
+      "id": "1",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "edad": "30",
+      "email": "juanperez1@gmail.com",
+      "tel": "3811111111",
+      "dni": "40123456",
+      "foto": "",
+      "descripción": "Entrenador personal con experiencia en fitness.",
+      "redes": []
+    },
+    {
+      "id": "2",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "María",
+      "apellido": "Gómez",
+      "edad": "28",
+      "email": "mariagomez2@gmail.com",
+      "tel": "3812222222",
+      "dni": "41123457",
+      "foto": "",
+      "descripción": "Entrenadora de yoga con experiencia en meditación.",
+      "redes": []
+    },
+    {
+      "id": "3",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "Carlos",
+      "apellido": "López",
+      "edad": "35",
+      "email": "carlosslopez3@gmail.com",
+      "tel": "3813333333",
+      "dni": "42123458",
+      "foto": "",
+      "descripción": "Entrenador de fuerza con experiencia en levantamiento de pesas.",
+      "redes": []
+    },
+    {
+      "id": "4",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "edad": "32",
+      "email": "anamartinez4@gmail.com",
+      "tel": "3814444444",
+      "dni": "43123459",
+      "foto": "",
+      "descripción": "Entrenadora de cardio con experiencia en correr.",
+      "redes": []
+    },
+    {
+      "id": "5",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "Luis",
+      "apellido": "García",
+      "edad": "29",
+      "email": "luisgarcia5@gmail.com",
+      "tel": "3815555555",
+      "dni": "44123460",
+      "foto": "",
+      "descripción": "Entrenador de fuerza con experiencia en pesas.",
+      "redes": []
+    },
+    {
+      "id": "6",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "Sofía",
+      "apellido": "Rodríguez",
+      "edad": "26",
+      "email": "sofiarodriguez6@gmail.com",
+      "tel": "3816666666",
+      "dni": "45123461",
+      "foto": "",
+      "descripción": "Entrenadora de yoga con experiencia en meditación.",
+      "redes": []
+    },
+    {
+      "id": "7",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "Mateo",
+      "apellido": "López",
+      "edad": "31",
+      "email": "mateolopez7@gmail.com",
+      "tel": "3817777777",
+      "dni": "46123462",
+      "foto": "",
+      "descripción": "Entrenador de cardio con experiencia en correr.",
+      "redes": []
+    },
+    {
+      "id": "8",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "Lucía",
+      "apellido": "García",
+      "edad": "27",
+      "email": "luciagarcia8@gmail.com",
+      "tel": "3818888888",
+      "dni": "47123463",
+      "foto": "",
+      "descripción": "Entrenadora de fuerza con experiencia en pesas.",
+      "redes": []
+    },
+    {
+      "id": "9",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "Alejandro",
+      "apellido": "Martínez",
+      "edad": "34",
+      "email": "alejandroMartinez9@gmail.com",
+      "tel": "3819999999",
+      "dni": "48123464",
+      "foto": "",
+      "descripción": "Entrenador de yoga con experiencia en meditación.",
+      "redes": []
+    },
+    {
+      "id": "10",
+      "rol": "empleado",
+      "contraseña": "123",
+      "nombre": "Valeria",
+      "apellido": "Rodríguez",
+      "edad": "25",
+      "email": "valeriarodriguez10@gmail.com",
+      "tel": "3820000000",
+      "dni": "49123465",
+      "foto": "",
+      "descripción": "Entrenadora de cardio con experiencia en correr.",
+      "redes": []
+    }
+  ],
+  "socios": [
+    {
+      "id": "1",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Nicolas",
+      "apellido": "Zelarayan",
+      "edad": "21",
+      "email": "nicoz123@gmail.com",
+      "tel": "3821111111",
+      "dni": "50123456",
+      "foto": "",
+      "descripción": "Me encanta pasar tiempo con mis amigos y familia.",
+      "redes": []
+    },
+    {
+      "id": "2",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Sofía",
+      "apellido": "Rodríguez",
+      "edad": "25",
+      "email": "sofiarodriguez123@gmail.com",
+      "tel": "3822222222",
+      "dni": "51123457",
+      "foto": "",
+      "descripción": "Me gusta hacer ejercicio y cuidar mi salud.",
+      "redes": []
+    },
+    {
+      "id": "3",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Mateo",
+      "apellido": "García",
+      "edad": "29",
+      "email": "mateogarcia123@gmail.com",
+      "tel": "3823333333",
+      "dni": "52123458",
+      "foto": "",
+      "descripción": "Me encanta el deporte y la competencia.",
+      "redes": []
+    },
+    {
+      "id": "4",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Lucía",
+      "apellido": "Martínez",
+      "edad": "22",
+      "email": "luciamartinez123@gmail.com",
+      "tel": "3824444444",
+      "dni": "53123459",
+      "foto": "",
+      "descripción": "Me gusta la música y el baile.",
+      "redes": []
+    },
+    {
+      "id": "5",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "edad": "30",
+      "email": "juanperez123@gmail.com",
+      "tel": "3825555555",
+      "dni": "54123460",
+      "foto": "",
+      "descripción": "Me encanta el fitness y la salud.",
+      "redes": []
+    },
+    {
+      "id": "6",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Ana",
+      "apellido": "García",
+      "edad": "26",
+      "email": "anagarcia123@gmail.com",
+      "tel": "3826666666",
+      "dni": "55123461",
+      "foto": "",
+      "descripción": "Me gusta hacer ejercicio y relajarme.",
+      "redes": []
+    },
+    {
+      "id": "7",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Carlos",
+      "apellido": "López",
+      "edad": "35",
+      "email": "carlosslopez123@gmail.com",
+      "tel": "3827777777",
+      "dni": "56123462",
+      "foto": "",
+      "descripción": "Me encanta el deporte y la aventura.",
+      "redes": []
+    },
+    {
+      "id": "8",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Valeria",
+      "apellido": "Rodríguez",
+      "edad": "24",
+      "email": "valeriarodriguez123@gmail.com",
+      "tel": "3828888888",
+      "dni": "57123463",
+      "foto": "",
+      "descripción": "Me gusta la música y el arte.",
+      "redes": []
+    },
+    {
+      "id": "9",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Alejandro",
+      "apellido": "Martínez",
+      "edad": "31",
+      "email": "alejandroMartinez123@gmail.com",
+      "tel": "3829999999",
+      "dni": "58123464",
+      "foto": "",
+      "descripción": "Me encanta el fitness y la competencia.",
+      "redes": []
+    },
+    {
+      "id": "10",
+      "rol": "socio",
+      "contraseña": "123",
+      "nombre": "Daniela",
+      "apellido": "García",
+      "edad": "27",
+      "email": "danielagarcia123@gmail.com",
+      "tel": "3830000000",
+      "dni": "59123465",
+      "foto": "",
+      "descripción": "Me gusta hacer ejercicio y cuidar mi salud.",
+      "redes": []
+    }
+  ],
+  "disciplinas": [
+    {
+      "id": "1",
+      "categoria": "Fitness",
+      "nombre": "Yoga",
+      "descripción": "Disciplina que combina movimientos físicos, respiración y meditación para mejorar la flexibilidad y reducir el estrés.",
+      "foto": "",
+      "sector": "Sala de yoga",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "María Gómez",
+          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "dias": "Lunes y miércoles",
+          "horarios": "18:00-19:30",
+          "nivel": "Principiante"
+        },
+        {
+          "id": "2",
+          "entrenador": "Sofía Rodríguez",
+          "socios": ["Mateo García", "Lucía Martínez"],
+          "dias": "Martes y jueves",
+          "horarios": "19:30-21:00",
+          "nivel": "Intermedio"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "categoria": "Fuerza",
+      "nombre": "Levantamiento de pesas",
+      "descripción": "Disciplina que se enfoca en el entrenamiento de fuerza y resistencia muscular.",
+      "foto": "",
+      "sector": "Sala de pesas",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "Carlos López",
+          "socios": ["Juan Pérez", "Ana García"],
+          "dias": "Lunes y miércoles",
+          "horarios": "20:00-21:30",
+          "nivel": "Intermedio"
+        },
+        {
+          "id": "2",
+          "entrenador": "Luis García",
+          "socios": ["Alejandro Martínez", "Valeria Rodríguez"],
+          "dias": "Martes y jueves",
+          "horarios": "21:00-22:30",
+          "nivel": "Avanzado"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "categoria": "Cardio",
+      "nombre": "Correr",
+      "descripción": "Disciplina que se enfoca en mejorar la resistencia cardiovascular y quemar calorías.",
+      "foto": "",
+      "sector": "Pista de correr",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "Juan Pérez",
+          "socios": ["Nicolas Zelarayan", "Mateo García"],
+          "dias": "Viernes",
+          "horarios": "18:00-19:00",
+          "nivel": "Principiante"
+        },
+        {
+          "id": "2",
+          "entrenador": "Mateo López",
+          "socios": ["Sofía Rodríguez", "Lucía Martínez"],
+          "dias": "Sábado",
+          "horarios": "09:00-10:00",
+          "nivel": "Intermedio"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "categoria": "Flexibilidad",
+      "nombre": "Estiramientos",
+      "descripción": "Disciplina que se enfoca en mejorar la flexibilidad y reducir la tensión muscular.",
+      "foto": "",
+      "sector": "Sala de estiramientos",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "Ana Martínez",
+          "socios": ["Juan Pérez", "Ana García"],
+          "dias": "Lunes y miércoles",
+          "horarios": "19:30-20:30",
+          "nivel": "Principiante"
+        },
+        {
+          "id": "2",
+          "entrenador": "Daniela García",
+          "socios": ["Alejandro Martínez", "Valeria Rodríguez"],
+          "dias": "Martes y jueves",
+          "horarios": "20:30-21:30",
+          "nivel": "Intermedio"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "categoria": "Fuerza",
+      "nombre": "Entrenamiento de fuerza",
+      "descripción": "Disciplina que se enfoca en el entrenamiento de fuerza y resistencia muscular.",
+      "foto": "",
+      "sector": "Sala de pesas",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "Luis García",
+          "socios": ["Mateo García", "Lucía Martínez"],
+          "dias": "Lunes y miércoles",
+          "horarios": "21:00-22:30",
+          "nivel": "Avanzado"
+        },
+        {
+          "id": "2",
+          "entrenador": "Carlos López",
+          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "dias": "Martes y jueves",
+          "horarios": "19:00-20:30",
+          "nivel": "Intermedio"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "categoria": "Cardio",
+      "nombre": "Ciclismo",
+      "descripción": "Disciplina que se enfoca en mejorar la resistencia cardiovascular y quemar calorías.",
+      "foto": "",
+      "sector": "Sala de ciclismo",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "Mateo López",
+          "socios": ["Juan Pérez", "Ana García"],
+          "dias": "Viernes",
+          "horarios": "19:00-20:00",
+          "nivel": "Principiante"
+        },
+        {
+          "id": "2",
+          "entrenador": "Alejandro Martínez",
+          "socios": ["Mateo García", "Lucía Martínez"],
+          "dias": "Sábado",
+          "horarios": "10:00-11:00",
+          "nivel": "Intermedio"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "categoria": "Flexibilidad",
+      "nombre": "Pilates",
+      "descripción": "Disciplina que se enfoca en mejorar la flexibilidad y reducir la tensión muscular.",
+      "foto": "",
+      "sector": "Sala de pilates",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "Sofía Rodríguez",
+          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "dias": "Lunes y miércoles",
+          "horarios": "20:30-21:30",
+          "nivel": "Principiante"
+        },
+        {
+          "id": "2",
+          "entrenador": "Valeria Rodríguez",
+          "socios": ["Alejandro Martínez", "Valeria Rodríguez"],
+          "dias": "Martes y jueves",
+          "horarios": "21:30-22:30",
+          "nivel": "Intermedio"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "categoria": "Fuerza",
+      "nombre": "Entrenamiento de fuerza avanzado",
+      "descripción": "Disciplina que se enfoca en el entrenamiento de fuerza y resistencia muscular para atletas avanzados.",
+      "foto": "",
+      "sector": "Sala de pesas",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "Alejandro Martínez",
+          "socios": ["Mateo García", "Lucía Martínez"],
+          "dias": "Lunes y miércoles",
+          "horarios": "22:00-23:30",
+          "nivel": "Avanzado"
+        },
+        {
+          "id": "2",
+          "entrenador": "Luis García",
+          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "dias": "Martes y jueves",
+          "horarios": "20:00-21:30",
+          "nivel": "Avanzado"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "categoria": "Cardio",
+      "nombre": "Natación",
+      "descripción": "Disciplina que se enfoca en mejorar la resistencia cardiovascular y quemar calorías.",
+      "foto": "",
+      "sector": "Piscina",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "Valeria Rodríguez",
+          "socios": ["Juan Pérez", "Ana García"],
+          "dias": "Viernes",
+          "horarios": "20:00-21:00",
+          "nivel": "Principiante"
+        },
+        {
+          "id": "2",
+          "entrenador": "Daniela García",
+          "socios": ["Mateo García", "Lucía Martínez"],
+          "dias": "Sábado",
+          "horarios": "11:00-12:00",
+          "nivel": "Intermedio"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "categoria": "Flexibilidad",
+      "nombre": "Yoga restaurativo",
+      "descripción": "Disciplina que se enfoca en mejorar la flexibilidad y reducir la tensión muscular.",
+      "foto": "",
+      "sector": "Sala de yoga",
+      "clases": [
+        {
+          "id": "1",
+          "entrenador": "Daniela García",
+          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "dias": "Lunes y miércoles",
+          "horarios": "21:30-22:30",
+          "nivel": "Principiante"
+        },
+        {
+          "id": "2",
+          "entrenador": "Sofía Rodríguez",
+          "socios": ["Alejandro Martínez", "Valeria Rodríguez"],
+          "dias": "Martes y jueves",
+          "horarios": "22:30-23:30",
+          "nivel": "Intermedio"
+        }
+      ]
+    }
+  ]
+}

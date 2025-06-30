@@ -1,1 +1,83 @@
 /* buzon */
+
+
+.admin-container {
+  padding: 30px;
+  min-height: 100vh;
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.admin-container h1 {
+    font-size: 2.5rem;
+    border-radius: 10px;
+    background-color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-controles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.admin-controles input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  min-width: 200px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn.borrar {
+  background-color: crimson;
+  color: white;
+}
+
+
+
+.btn.eliminar {
+  background-color: #444;
+  color: white;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.mensaje-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+
+}
+
+.mensaje-item {
+  background-color: #222;
+  border-left: 6px solid red;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.mensaje-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 20px rgba(250, 1, 1, 0.432);
+}

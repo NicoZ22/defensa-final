@@ -1,1 +1,19 @@
 /* conctact */
+.contactos {
+  background-color: black;
+  min-height: 100vh; /* para cubrir toda la altura de la pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactos > div {
+  background-color: rgba(224, 224, 224, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  width: 40%;
+  max-width: 800px;
+  
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}

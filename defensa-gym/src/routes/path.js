@@ -7,5 +7,6 @@ const EMPLEADO = '/empleado';
 const SOCIO = '/socio';
 const DISCIPLINA = '/disciplina';
 const BUZON = '/buzon';
+const EDIT_PERFIL = '/editperfil';
 
-export { HOME, REGISTER, LOGIN, CONTACT,ADMIN,EMPLEADO,SOCIO,DISCIPLINA,BUZON,};
+export { HOME, REGISTER, LOGIN, CONTACT,ADMIN,EMPLEADO,SOCIO,DISCIPLINA,BUZON, EDIT_PERFIL };

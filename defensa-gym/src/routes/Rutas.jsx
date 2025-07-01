@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 
+import { EditPerfil } from "../components/MAIN/editperfil"
 import { BuzonPage } from "../pages/PAGINAS DE ADMIN/BuzonPage";
 import { AdminPage } from "../pages/PAGINAS DE ADMIN/AdminPage"
 import { DisciplinaPage } from "../pages/PAGINAS DE DISCIPLINA/DisciplinaPage"
@@ -9,11 +10,12 @@ import { HomePage } from "../pages/PAGINAS DE INICIO/HomePage"
 import { LoginPage } from "../pages/PAGINAS DE INICIO/LoginPage"
 import { RegisterPage } from "../pages/PAGINAS DE INICIO/RegisterPage"
 import { SocioPage } from "../pages/PAGINAS DE SOCIO/SocioPage"
-import { ADMIN, BUZON, CONTACT, DISCIPLINA, EMPLEADO, HOME, LOGIN, REGISTER, SOCIO } from "./path"
+import { ADMIN, BUZON, CONTACT, DISCIPLINA, EMPLEADO, HOME, LOGIN, REGISTER, SOCIO, EDIT_PERFIL } from "./path"
 
 export const Rutas = () => {
   
   const rutas = [
+    { path: EDIT_PERFIL, element: <EditPerfil /> },
     { path: BUZON, element: <BuzonPage/> },
     { path: HOME, element: <HomePage/> },
     { path: REGISTER, element: <RegisterPage/> },

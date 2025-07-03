@@ -1,0 +1,1 @@
+# aqui los estilos de header y footer

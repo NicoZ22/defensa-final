@@ -1,0 +1,1 @@
+# aqui los estilos css del contenido main

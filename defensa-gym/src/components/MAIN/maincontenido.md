@@ -1,0 +1,1 @@
+# aqui todo el contenido principal de cada pagina

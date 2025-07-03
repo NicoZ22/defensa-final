@@ -1,0 +1,58 @@
+.home-amparo-container {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5%;
+}
+
+.home-amparo-imagenes {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-amparo-imagen {
+  width: 100%;
+}
+
+.home-amparo-imagen img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.home-amparo-title {
+  font-family: "Anton, sans-serif";
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.card-amparo {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #f7f7f7;
+}
+
+.card-amparo img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-amparo-body {
+  padding: 20px;
+}
+
+.card-amparo-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-amparo-text {
+  font-size: 1rem;
+  color: #666;
+}

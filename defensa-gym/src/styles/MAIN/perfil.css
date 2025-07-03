@@ -1,0 +1,93 @@
+.perfil-ricardo-container {
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(179, 29, 29, 0.3);
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.perfil-ricardo-titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.perfil-ricardo-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil-ricardo-formulario label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.perfil-ricardo-formulario input[type="text"],
+.perfil-ricardo-formulario input[type="email"],
+.perfil-ricardo-formulario input[type="number"],
+.perfil-ricardo-formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.perfil-ricardo-formulario button[type="button"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.perfil-ricardo-formulario button[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+.perfil-ricardo-informacion {
+  margin-top: 20px;
+}
+
+.perfil-ricardo-informacion p {
+  margin-bottom: 10px;
+}
+
+.perfil-ricardo-informacion strong {
+  font-weight: bold;
+}
+
+.perfil-ricardo-botones {
+  margin-top: 20px;
+}
+
+.perfil-ricardo-botones button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.perfil-ricardo-botones button:hover {
+  background-color: #3e8e41;
+}
+
+.container-perfil-ricardo-foto {
+  display: flex;
+  justify-content: center;
+}
+
+.perfil-ricardo-foto {
+  height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

@@ -1,20 +1,20 @@
 {
   "admins": [
-		{
-			"id": "1",
-			"rol": "admin",
-			"contraseña": "123",
-			"nombre": "Nicolas",
-			"apellido": "Zelarayan",
-			"edad": "21",
-			"email": "nicolas@gmail.com",
-			"tel": "3813334444",
-			"dni": "45123456",
-			"foto": "",
-			"descripción": "",
-			"redes": []
-		}
-	],
+    {
+      "id": "1",
+      "rol": "admin",
+      "contraseña": "123",
+      "nombre": "Nicolas",
+      "apellido": "Zelarayan",
+      "edad": "21",
+      "email": "nicolas@gmail.com",
+      "tel": "3813334444",
+      "dni": "45123456",
+      "foto": "",
+      "descripción": "",
+      "redes": []
+    }
+  ],
   "empleados": [
     {
       "id": "1",
@@ -311,7 +311,10 @@
         {
           "id": "1",
           "entrenador": "María Gómez",
-          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "socios": [
+            "Nicolas Zelarayan",
+            "Sofía Rodríguez"
+          ],
           "dias": "Lunes y miércoles",
           "horarios": "18:00-19:30",
           "nivel": "Principiante"
@@ -319,7 +322,10 @@
         {
           "id": "2",
           "entrenador": "Sofía Rodríguez",
-          "socios": ["Mateo García", "Lucía Martínez"],
+          "socios": [
+            "Mateo García",
+            "Lucía Martínez"
+          ],
           "dias": "Martes y jueves",
           "horarios": "19:30-21:00",
           "nivel": "Intermedio"
@@ -337,7 +343,10 @@
         {
           "id": "1",
           "entrenador": "Carlos López",
-          "socios": ["Juan Pérez", "Ana García"],
+          "socios": [
+            "Juan Pérez",
+            "Ana García"
+          ],
           "dias": "Lunes y miércoles",
           "horarios": "20:00-21:30",
           "nivel": "Intermedio"
@@ -345,7 +354,10 @@
         {
           "id": "2",
           "entrenador": "Luis García",
-          "socios": ["Alejandro Martínez", "Valeria Rodríguez"],
+          "socios": [
+            "Alejandro Martínez",
+            "Valeria Rodríguez"
+          ],
           "dias": "Martes y jueves",
           "horarios": "21:00-22:30",
           "nivel": "Avanzado"
@@ -363,7 +375,10 @@
         {
           "id": "1",
           "entrenador": "Juan Pérez",
-          "socios": ["Nicolas Zelarayan", "Mateo García"],
+          "socios": [
+            "Nicolas Zelarayan",
+            "Mateo García"
+          ],
           "dias": "Viernes",
           "horarios": "18:00-19:00",
           "nivel": "Principiante"
@@ -371,7 +386,10 @@
         {
           "id": "2",
           "entrenador": "Mateo López",
-          "socios": ["Sofía Rodríguez", "Lucía Martínez"],
+          "socios": [
+            "Sofía Rodríguez",
+            "Lucía Martínez"
+          ],
           "dias": "Sábado",
           "horarios": "09:00-10:00",
           "nivel": "Intermedio"
@@ -389,7 +407,10 @@
         {
           "id": "1",
           "entrenador": "Ana Martínez",
-          "socios": ["Juan Pérez", "Ana García"],
+          "socios": [
+            "Juan Pérez",
+            "Ana García"
+          ],
           "dias": "Lunes y miércoles",
           "horarios": "19:30-20:30",
           "nivel": "Principiante"
@@ -397,7 +418,10 @@
         {
           "id": "2",
           "entrenador": "Daniela García",
-          "socios": ["Alejandro Martínez", "Valeria Rodríguez"],
+          "socios": [
+            "Alejandro Martínez",
+            "Valeria Rodríguez"
+          ],
           "dias": "Martes y jueves",
           "horarios": "20:30-21:30",
           "nivel": "Intermedio"
@@ -415,7 +439,10 @@
         {
           "id": "1",
           "entrenador": "Luis García",
-          "socios": ["Mateo García", "Lucía Martínez"],
+          "socios": [
+            "Mateo García",
+            "Lucía Martínez"
+          ],
           "dias": "Lunes y miércoles",
           "horarios": "21:00-22:30",
           "nivel": "Avanzado"
@@ -423,7 +450,10 @@
         {
           "id": "2",
           "entrenador": "Carlos López",
-          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "socios": [
+            "Nicolas Zelarayan",
+            "Sofía Rodríguez"
+          ],
           "dias": "Martes y jueves",
           "horarios": "19:00-20:30",
           "nivel": "Intermedio"
@@ -441,7 +471,10 @@
         {
           "id": "1",
           "entrenador": "Mateo López",
-          "socios": ["Juan Pérez", "Ana García"],
+          "socios": [
+            "Juan Pérez",
+            "Ana García"
+          ],
           "dias": "Viernes",
           "horarios": "19:00-20:00",
           "nivel": "Principiante"
@@ -449,7 +482,10 @@
         {
           "id": "2",
           "entrenador": "Alejandro Martínez",
-          "socios": ["Mateo García", "Lucía Martínez"],
+          "socios": [
+            "Mateo García",
+            "Lucía Martínez"
+          ],
           "dias": "Sábado",
           "horarios": "10:00-11:00",
           "nivel": "Intermedio"
@@ -467,7 +503,10 @@
         {
           "id": "1",
           "entrenador": "Sofía Rodríguez",
-          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "socios": [
+            "Nicolas Zelarayan",
+            "Sofía Rodríguez"
+          ],
           "dias": "Lunes y miércoles",
           "horarios": "20:30-21:30",
           "nivel": "Principiante"
@@ -475,7 +514,10 @@
         {
           "id": "2",
           "entrenador": "Valeria Rodríguez",
-          "socios": ["Alejandro Martínez", "Valeria Rodríguez"],
+          "socios": [
+            "Alejandro Martínez",
+            "Valeria Rodríguez"
+          ],
           "dias": "Martes y jueves",
           "horarios": "21:30-22:30",
           "nivel": "Intermedio"
@@ -493,7 +535,10 @@
         {
           "id": "1",
           "entrenador": "Alejandro Martínez",
-          "socios": ["Mateo García", "Lucía Martínez"],
+          "socios": [
+            "Mateo García",
+            "Lucía Martínez"
+          ],
           "dias": "Lunes y miércoles",
           "horarios": "22:00-23:30",
           "nivel": "Avanzado"
@@ -501,7 +546,10 @@
         {
           "id": "2",
           "entrenador": "Luis García",
-          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "socios": [
+            "Nicolas Zelarayan",
+            "Sofía Rodríguez"
+          ],
           "dias": "Martes y jueves",
           "horarios": "20:00-21:30",
           "nivel": "Avanzado"
@@ -519,7 +567,10 @@
         {
           "id": "1",
           "entrenador": "Valeria Rodríguez",
-          "socios": ["Juan Pérez", "Ana García"],
+          "socios": [
+            "Juan Pérez",
+            "Ana García"
+          ],
           "dias": "Viernes",
           "horarios": "20:00-21:00",
           "nivel": "Principiante"
@@ -527,7 +578,10 @@
         {
           "id": "2",
           "entrenador": "Daniela García",
-          "socios": ["Mateo García", "Lucía Martínez"],
+          "socios": [
+            "Mateo García",
+            "Lucía Martínez"
+          ],
           "dias": "Sábado",
           "horarios": "11:00-12:00",
           "nivel": "Intermedio"
@@ -545,7 +599,10 @@
         {
           "id": "1",
           "entrenador": "Daniela García",
-          "socios": ["Nicolas Zelarayan", "Sofía Rodríguez"],
+          "socios": [
+            "Nicolas Zelarayan",
+            "Sofía Rodríguez"
+          ],
           "dias": "Lunes y miércoles",
           "horarios": "21:30-22:30",
           "nivel": "Principiante"
@@ -553,7 +610,10 @@
         {
           "id": "2",
           "entrenador": "Sofía Rodríguez",
-          "socios": ["Alejandro Martínez", "Valeria Rodríguez"],
+          "socios": [
+            "Alejandro Martínez",
+            "Valeria Rodríguez"
+          ],
           "dias": "Martes y jueves",
           "horarios": "22:30-23:30",
           "nivel": "Intermedio"

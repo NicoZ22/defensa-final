@@ -4,23 +4,39 @@ import "../../styles/MAIN/editperfil.css";
 export const EditPerfil = () => {
   const [usuario, setUsuario] = useState(null);
   const [foto, setFoto] = useState(null);
-  const [storageKey, setStorageKey] = useState(null);
   const [editando, setEditando] = useState(false);
   const [form, setForm] = useState({});
+  const [userId, setUserId] = useState(null);
+  const [endpoint, setEndpoint] = useState(null);
 
   useEffect(() => {
-    const fuentes = ["empleadoData", "socioData", "adminData"];
-    for (let key of fuentes) {
-      const data = localStorage.getItem(key);
-      if (data) {
-        const parsed = JSON.parse(data);
-        setUsuario(parsed);
-        setFoto(parsed.foto || null);
-        setStorageKey(key);
-        setForm(parsed);
-        break;
-      }
-    }
+    const email = sessionStorage.getItem("userEmail");
+    const rol = sessionStorage.getItem("userRol");
+
+    if (!email || !rol) return;
+
+    const endpointMap = {
+      admin: "admins",
+      empleado: "empleados",
+      socio: "socios"
+    };
+
+    const ep = endpointMap[rol];
+    setEndpoint(ep);
+
+    fetch(`http://localhost:3000/${ep}?email=${email}`)
+      .then(res => res.json())
+      .then(data => {
+        if (data.length > 0) {
+          setUsuario(data[0]);
+          setForm(data[0]);
+          setFoto(data[0].foto || null);
+          setUserId(data[0].id);
+        }
+      })
+      .catch(err => {
+        console.error("Error al cargar usuario:", err);
+      });
   }, []);
 
   const handleImagen = (e) => {
@@ -63,16 +79,26 @@ export const EditPerfil = () => {
       return;
     }
 
-    setUsuario(form);
-    setEditando(false);
-    if (storageKey) {
-      localStorage.setItem(storageKey, JSON.stringify(form));
-    }
+    fetch(`http://localhost:3000/${endpoint}/${userId}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(form)
+    })
+      .then(res => res.json())
+      .then(data => {
+        setUsuario(data);
+        setEditando(false);
+        alert("Perfil actualizado correctamente.");
+      })
+      .catch(err => {
+        console.error("Error al guardar cambios:", err);
+        alert("Hubo un error al guardar los cambios.");
+      });
   };
 
   const cancelarEdicion = () => {
     setForm(usuario);
-    setFoto(usuario.foto || null);
+    setFoto(usuario?.foto || null);
     setEditando(false);
   };
 

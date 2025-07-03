@@ -1,0 +1,123 @@
+.editar-socio-container-nico {
+  margin: 0;
+  padding: 0;
+}
+
+.editar-socio-form-nico {
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+.editar-socio-title-nico {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cac1c1;
+}
+
+.editar-socio-form-group-nico {
+  margin-bottom: 20px;
+}
+
+.editar-socio-form-label-nico {
+  display: block;
+  margin-bottom: 10px;
+  color: #cac1c1;
+}
+
+.editar-socio-form-input-nico {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #b91c1c;
+  border-radius: 5px;
+  background-color: rgba(109, 44, 44, 0.4);
+  color: #f8f3f3;
+}
+
+.editar-socio-button-nico {
+  background-color: #c51d1d;
+  color: #fecaca;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.editar-socio-button-nico:hover {
+  background-color: #7f1d1d;
+}
+
+.editar-socio-error-message-nico {
+  color: #cac1c1;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.editar-socio-button-cancelar-nico {
+  background-color: #c51d1d;
+  color: #fecaca;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.editar-socio-button-cancelar-nico:hover {
+  background-color: #7f1d1d;
+}
+
+@media (max-width: 768px) {
+  .editar-socio-form-nico {
+    width: 90%;
+  }
+
+  .editar-socio-form-input-nico {
+    height: 30px;
+  }
+
+  .editar-socio-button-nico {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .editar-socio-form-nico {
+    width: 95%;
+  }
+
+  .editar-socio-form-input-nico {
+    height: 25px;
+    padding: 5px;
+  }
+
+  .editar-socio-button-nico {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .editar-socio-title-nico {
+    font-size: 2rem;
+  }
+
+  .editar-socio-form-label-nico {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .editar-socio-title-nico {
+    font-size: 1.5rem;
+  }
+
+  .editar-socio-form-label-nico {
+    font-size: 0.8rem;
+  }
+}

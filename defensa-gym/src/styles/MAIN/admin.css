@@ -1,0 +1,93 @@
+.container-nico {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('../../assets/FONDOS/gymfondored.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+  margin-top: 7em;
+}
+
+.dashboard-title-nico {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cac1c1;
+  background-color: rgba(51, 47, 47, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card-container-nico {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 16px;
+  width: 80%;
+}
+
+.card-nico {
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-title-nico {
+  color: #cac1c1;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text-nico {
+  color: #f8f3f3;
+  font-size: 1rem;
+}
+
+.button-nico {
+  background-color: #c51d1d;
+  color: #fecaca;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button-nico:hover {
+  background-color: #7f1d1d;
+}
+
+.list-container-nico {
+  width: 100%;
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.list-container-nico.show {
+  height: auto;
+  opacity: 1;
+}
+
+.list-container-nico.hide {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .card-container-nico {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .list-container-nico {
+    margin-top: 80vh;
+  }
+}

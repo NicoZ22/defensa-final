@@ -1,0 +1,119 @@
+.login-nico-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/FONDOS/gymfondored.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 4em;
+}
+
+.login-nico-form {
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+.login-nico-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cac1c1;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.login-nico-form-group {
+  margin-bottom: 20px;
+}
+
+.login-nico-form-label {
+  display: block;
+  margin-bottom: 10px;
+  color: #cac1c1;
+}
+
+.login-nico-form-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #b91c1c;
+  border-radius: 5px;
+  background-color: rgba(109, 44, 44, 0.4);
+  color: #f8f3f3;
+}
+
+.login-nico-button {
+  background-color: #c51d1d;
+  color: #fecaca;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-nico-button:hover {
+  background-color: #7f1d1d;
+}
+
+.login-nico-error-message {
+  color: #cac1c1;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .login-nico-form {
+    width: 90%;
+  }
+
+  .login-nico-form-input {
+    height: 30px;
+  }
+
+  .login-nico-button {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-nico-form {
+    width: 95%;
+  }
+
+  .login-nico-form-input {
+    height: 25px;
+    padding: 5px;
+  }
+
+  .login-nico-button {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-nico-title {
+    font-size: 2rem;
+  }
+
+  .login-nico-form-label {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-nico-title {
+    font-size: 1.5rem;
+  }
+
+  .login-nico-form-label {
+    font-size: 0.8rem;
+  }
+}

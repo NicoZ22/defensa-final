@@ -1,0 +1,199 @@
+.listar-socio-container-nico {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10vh;
+}
+
+.listar-socio-title-container-nico {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.listar-socio-title-nico {
+  color: #cac1c1;
+  background-color: rgba(51, 47, 47, 0.8);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.listar-socio-table-container-nico {
+  width: auto;
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.listar-socio-table-nico {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.listar-socio-table-header-nico {
+  background-color: rgba(51, 47, 47, 0.8);
+  color: #cac1c1;
+}
+
+.listar-socio-table-header-cell-nico {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.listar-socio-table-row-nico {
+  border: 1px solid #ddd;
+}
+
+.listar-socio-table-row-selected-nico {
+  background-color: rgba(197, 29, 29, 0.8);
+}
+
+.listar-socio-table-cell-nico {
+  padding: 5px;
+  border: 1px solid #ddd;
+  color: #f8f3f3;
+}
+
+.listar-socio-button-create-nico {
+  background-color: #53ce71;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-socio-button-create-nico:hover {
+  background-color: #3ba74d;
+}
+
+.listar-socio-button-action-nico {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-socio-button-action-nico:hover {
+  background-color: #4ea6ea;
+}
+
+.listar-socio-button-edit-nico {
+  background-color: #f1c40f;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-socio-button-edit-nico:hover {
+  background-color: #ffd700;
+}
+
+.listar-socio-button-delete-nico {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-socio-button-delete-nico:hover {
+  background-color: #ff6666;
+}
+
+.listar-socio-modal-container-nico {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listar-socio-modal-content-nico {
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+
+.listar-socio-modal-header-nico {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.listar-socio-modal-title-nico {
+  color: #cac1c1;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.listar-socio-modal-close-button-nico {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-socio-modal-close-button-nico:hover {
+  background-color: #ff6666;
+}
+
+.listar-socio-modal-detail-nico {
+  margin-bottom: 16px;
+  color: #f8f3f3;
+}
+
+.listar-socio-modal-detail-label-nico {
+  font-weight: bold;
+  color: #cac1c1;
+}
+
+@media (max-width: 768px) {
+  .listar-socio-table-nico {
+    display: block;
+  }
+  
+  .listar-socio-table-row-nico {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .listar-socio-table-cell-nico {
+    display: block;
+    padding: 5px;
+    border: none;
+  }
+  
+  .listar-socio-table-header-nico {
+    display: none;
+  }
+}
+
+.cerrar-modal-nico {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: rgba(51, 47, 47, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

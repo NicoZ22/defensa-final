@@ -1,6 +1,6 @@
 .home-amparo-container {
   width: 100%;
-  padding: 20px;
+  padding: 20px; 
   margin-bottom: 5%;
 }
 
@@ -32,7 +32,7 @@
 .card-amparo {
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   background-color: #f7f7f7;
 }
 

@@ -1,0 +1,207 @@
+.listar-empleado-container-efra {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10vh;
+}
+
+.listar-empleado-title-container-efra {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.listar-empleado-title-efra {
+  color: #cac1c1;
+  background-color: rgba(51, 47, 47, 0.8);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.listar-empleado-table-container-efra {
+  width: auto;
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.listar-empleado-table-efra {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.listar-empleado-table-header-efra {
+  background-color: rgba(51, 47, 47, 0.8);
+  color: #cac1c1;
+}
+
+.listar-empleado-table-header-cell-efra {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.listar-empleado-table-row-efra {
+  border: 1px solid #ddd;
+}
+
+.listar-empleado-table-row-selected-efra {
+  background-color: rgba(197, 29, 29, 0.8);
+}
+
+.listar-empleado-table-cell-efra {
+  padding: 5px;
+  border: 1px solid #ddd;
+  color: #f8f3f3;
+}
+
+.listar-empleado-button-create-efra {
+  background-color: #53ce71;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-empleado-button-create-efra:hover {
+  background-color: #3ba74d;
+}
+
+.listar-empleado-button-action-efra {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-empleado-button-action-efra:hover {
+  background-color: #4ea6ea;
+}
+
+.listar-empleado-button-edit-efra {
+  background-color: #f1c40f;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-empleado-button-edit-efra:hover {
+  background-color: #ffd700;
+}
+
+.listar-empleado-button-delete-efra {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-empleado-button-delete-efra:hover {
+  background-color: #ff6666;
+}
+
+.listar-empleado-modal-container-efra {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listar-empleado-modal-content-efra {
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+
+.listar-empleado-modal-header-efra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.listar-empleado-modal-title-efra {
+  color: #cac1c1;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.listar-empleado-modal-close-button-efra {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listar-empleado-modal-close-button-efra:hover {
+  background-color: #ff6666;
+}
+
+.listar-empleado-modal-detail-efra {
+  margin-bottom: 16px;
+  color: #f8f3f3;
+}
+
+.listar-empleado-modal-detail-label-efra {
+  font-weight: bold;
+  color: #cac1c1;
+}
+
+@media (max-width: 768px) {
+  .listar-empleado-table-efra {
+    display: block;
+  }
+  
+  .listar-empleado-table-row-efra {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .listar-empleado-table-cell-efra {
+    display: block;
+    padding: 5px;
+    border: none;
+  }
+  
+  .listar-empleado-table-header-efra {
+    display: none;
+  }
+}
+
+.cerrar-modal-efra {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: rgba(51, 47, 47, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.listar-empleado-modal-container-efra img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain; 
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

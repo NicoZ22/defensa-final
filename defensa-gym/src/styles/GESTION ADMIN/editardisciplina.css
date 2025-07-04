@@ -1,0 +1,123 @@
+.editar-disciplina-container-amparo {
+  margin: 0;
+  padding: 0;
+}
+
+.editar-disciplina-form-amparo {
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+.editar-disciplina-title-amparo {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cac1c1;
+}
+
+.editar-disciplina-form-group-amparo {
+  margin-bottom: 20px;
+}
+
+.editar-disciplina-form-label-amparo {
+  display: block;
+  margin-bottom: 10px;
+  color: #cac1c1;
+}
+
+.editar-disciplina-form-input-amparo {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #b91c1c;
+  border-radius: 5px;
+  background-color: rgba(109, 44, 44, 0.4);
+  color: #f8f3f3;
+}
+
+.editar-disciplina-button-amparo {
+  background-color: #c51d1d;
+  color: #fecaca;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.editar-disciplina-button-amparo:hover {
+  background-color: #7f1d1d;
+}
+
+.editar-disciplina-error-message-amparo {
+  color: #cac1c1;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.editar-disciplina-button-cancelar-amparo {
+  background-color: #c51d1d;
+  color: #fecaca;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.editar-disciplina-button-cancelar-amparo:hover {
+  background-color: #7f1d1d;
+}
+
+@media (max-width: 768px) {
+  .editar-disciplina-form-amparo {
+    width: 90%;
+  }
+
+  .editar-disciplina-form-input-amparo {
+    height: 30px;
+  }
+
+  .editar-disciplina-button-amparo {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .editar-disciplina-form-amparo {
+    width: 95%;
+  }
+
+  .editar-disciplina-form-input-amparo {
+    height: 25px;
+    padding: 5px;
+  }
+
+  .editar-disciplina-button-amparo {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .editar-disciplina-title-amparo {
+    font-size: 2rem;
+  }
+
+  .editar-disciplina-form-label-amparo {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .editar-disciplina-title-amparo {
+    font-size: 1.5rem;
+  }
+
+  .editar-disciplina-form-label-amparo {
+    font-size: 0.8rem;
+  }
+}

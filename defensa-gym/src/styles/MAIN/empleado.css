@@ -1,0 +1,117 @@
+.clases-empleado-efra-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 20px;
+}
+
+.clases-empleado-efra-title-container {
+  text-align: center;
+  margin-bottom: 20px;
+  grid-column: 1 / -1;
+}
+
+.clases-empleado-efra-title {
+  color: #cac1c1;
+  background-color: rgba(51, 47, 47, 0.8);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.clases-empleado-efra-card {
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clases-empleado-efra-card-title {
+  color: #cac1c1;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.clases-empleado-efra-card-detail {
+  color: #f8f3f3;
+  margin-bottom: 10px;
+}
+
+.clases-empleado-efra-button-action {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.clases-empleado-efra-button-action:hover {
+  background-color: #4ea6ea;
+}
+
+@media (max-width: 768px) {
+  .clases-empleado-efra-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.clases-empleado-efra-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clases-empleado-efra-modal-content {
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  max-width: 500px;
+}
+
+.clases-empleado-efra-modal-title {
+  color: #cac1c1;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.clases-empleado-efra-modal-detail {
+  color: #f8f3f3;
+  margin-bottom: 10px;
+}
+
+.clases-empleado-efra-modal-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clases-empleado-efra-modal-button:hover {
+  background-color: #4ea6ea;
+}
+
+.clases-empleado-efra-modal-content img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain; 
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

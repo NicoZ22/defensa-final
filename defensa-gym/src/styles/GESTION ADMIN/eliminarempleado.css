@@ -1,0 +1,70 @@
+.eliminar-empleado-modal-container-efra {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eliminar-empleado-modal-content-efra {
+  background-color: rgba(51, 47, 47, 1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+.eliminar-empleado-modal-header-efra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.eliminar-empleado-modal-title-efra {
+  font-size: 24px;
+  font-weight: bold;
+  color: #cac1c1;
+}
+
+.eliminar-empleado-modal-detail-efra {
+  font-size: 18px;
+  color: #f8f3f3;
+  margin-bottom: 20px;
+}
+
+.eliminar-empleado-modal-footer-efra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eliminar-empleado-button-delete-efra {
+  background-color: #c51d1d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.eliminar-empleado-button-delete-efra:hover {
+  background-color: #7f1d1d;
+}
+
+.eliminar-empleado-button-cancelar-efra {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 8.5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.eliminar-empleado-button-cancelar-efra:hover {
+  background-color: #5a6268;
+}

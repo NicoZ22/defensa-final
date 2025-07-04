@@ -1,0 +1,123 @@
+.editar-empleado-container-efra {
+  margin: 0;
+  padding: 0;
+}
+
+.editar-empleado-form-efra {
+  background-color: rgba(51, 47, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+.editar-empleado-title-efra {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cac1c1;
+}
+
+.editar-empleado-form-group-efra {
+  margin-bottom: 20px;
+}
+
+.editar-empleado-form-label-efra {
+  display: block;
+  margin-bottom: 10px;
+  color: #cac1c1;
+}
+
+.editar-empleado-form-input-efra {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #b91c1c;
+  border-radius: 5px;
+  background-color: rgba(109, 44, 44, 0.4);
+  color: #f8f3f3;
+}
+
+.editar-empleado-button-efra {
+  background-color: #c51d1d;
+  color: #fecaca;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.editar-empleado-button-efra:hover {
+  background-color: #7f1d1d;
+}
+
+.editar-empleado-error-message-efra {
+  color: #cac1c1;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.editar-empleado-button-cancelar-efra {
+  background-color: #c51d1d;
+  color: #fecaca;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.editar-empleado-button-cancelar-efra:hover {
+  background-color: #7f1d1d;
+}
+
+@media (max-width: 768px) {
+  .editar-empleado-form-efra {
+    width: 90%;
+  }
+
+  .editar-empleado-form-input-efra {
+    height: 30px;
+  }
+
+  .editar-empleado-button-efra {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .editar-empleado-form-efra {
+    width: 95%;
+  }
+
+  .editar-empleado-form-input-efra {
+    height: 25px;
+    padding: 5px;
+  }
+
+  .editar-empleado-button-efra {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .editar-empleado-title-efra {
+    font-size: 2rem;
+  }
+
+  .editar-empleado-form-label-efra {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .editar-empleado-title-efra {
+    font-size: 1.5rem;
+  }
+
+  .editar-empleado-form-label-efra {
+    font-size: 0.8rem;
+  }
+}

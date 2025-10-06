@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { URL_EMPLEADOS, URL_SOCIOS, URL_ADMINS } from "../../../../../Nueva carpeta (4)/src/utils/endpoints";
+import { URL_EMPLEADOS, URL_SOCIOS, URL_ADMINS } from "../../src/utils/endpoints";
 import "../../styles/MAIN/perfil.css";
 
 export const Perfil = () => {

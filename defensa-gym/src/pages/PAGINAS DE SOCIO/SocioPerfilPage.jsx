@@ -1,5 +1,5 @@
-import { Footer } from "../../../../../Nueva carpeta (4)/src/components/HEADER Y FOOTER/Footer"
-import { Header } from "../../../../../Nueva carpeta (4)/src/components/HEADER Y FOOTER/Header"
+import { Footer } from "../../components/HEADER Y FOOTER/Footer"
+import { Header } from "../../components/HEADER Y FOOTER/Header"
 import { Perfil } from "../../components/MAIN/Perfil";
 
 export const SocioPerfilPage = () => {
